@@ -1,0 +1,61 @@
+body{
+    background-color: purple;
+}
+
+.temp{
+    height: 600px;
+    width: 600px;
+}
+
+.img-temp{
+    position: relative;
+
+}
+
+.temp-control{
+    position: absolute;
+    bottom: 8.6%;
+    right: 37.8%;
+    font-size: 0.6em;
+}
+
+.celsius{
+    display: flex;
+    border-radius: 100%;
+    color: black;
+    height: 200px;
+    width: 200px;
+    font-size: 2vw;
+    font-weight: 2vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: 1.2em;
+    border: 3px black solid;
+    margin-bottom: 180px;
+    margin-right: 80px;
+}
+
+.btn-temp{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 32px;
+    background: #f0932b;
+    margin-bottom: 6.2vw;
+    transition: 1.2s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    border: black solid;
+    transform: scale(1.1);
+}
